@@ -1,0 +1,42 @@
+/* Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans";
+}
+
+/* NavBar flexbox */
+#navMenu {
+    display: flex;
+    flex-direction: row;
+    background-color: #b5C18e;
+}
+
+#navMenu h1 {
+    width: 80%;
+    background-color: gray;
+    font-weight: bold;
+    color: white;
+}
+
+/* Page Contents */
+h2 {
+    background-color: #B99470;
+}
+
+#workingHours {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    height: 30%;
+}
+
+#workingHours img {
+    float: left;
+    width: 30vh;
+    height: auto;
+}
+
+#workingHours p {
+    float: right;
+}
