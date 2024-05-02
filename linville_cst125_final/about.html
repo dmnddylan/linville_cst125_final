@@ -8,23 +8,55 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="icon" type="Images/hot_beverage_2615_J47_icon" href="Images/hot_beverage_2615_J47_icon.ico">
-    <title>About Us | Cruel Beans Coffee Shop</title>
+    <title>About Us! | Cruel Beans Coffee Shop</title>
 </head>
 <body>
-    <nav id="navMenu">
-        <h1>Cruel Beans Coffee Shop</h1>
+    <nav>
+        <ul id="navBar">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="about.html">About</a>
+                <div class="dropdown-content">
+                    <a href="#">Game Nights</a>
+                    <a href="#">Live Music</a>
+                </div>
+            </li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
     </nav>
-    
 
-    <h2>About Us</h2>
-    <div id="workingHours">
-        <img src="Images/ocean-ng-L0xOtAnv94Y-unsplash.jpg">
-        <p>From sun up to sun down we pride ourselves on pumping out the hottest coffee this side of the missouri.</p>
+    <h2>About</h2>
+
+    <div id="tileBar">
+        <div id="tileTitle">
+            <h3>Live Music</h3>
+            <h3>Game Nights</h3>
+        </div>
+        <div id="tileContainer">
+            <div id="tileOne">
+                <img id="artistImage" src="Images/rebornKing.jpg">
+                <p>Reborn King</p>
+                <p id="imgSubtitle">Live Saturday May 18</p>
+            </div>
+            <div id="tileTwo">
+                <img id="artistImage2" src="Images/annaHarper.jpg">
+                <p>Anna Harper</p>
+                <p id="imgSubtitle">Live Saturday May 25</p>
+            </div>
+            <div id="tileThree">
+                <img id="artistImage2" src="Images/catanGameNight.jpg">
+                <p>Catan</p>
+                <p id="imgSubtitle">Saturday June 8</p>
+            </div>
+            <div id="tileFour">
+                <img id="artistImage2" src="Images/DNDGameNight.jpg">
+                <p>Dungeons & Dragons</p>
+                <p id="imgSubtitle">Saturday September 7 </p>
+            </div>
+        </div>
     </div>
-    <ul>
-        <li>(About us)hosts live music every saturday</li>
-        <li>(About us)hosts game nights once a quarter</li>
-        <li>(About us)open from 630 AM to 1230 AM</li>
-    </ul>
+    <p id="sectionSubtitle">Enjoy live music from up and coming local artists!</p>
+
 </body>
 </html>

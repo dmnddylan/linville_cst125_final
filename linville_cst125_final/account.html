@@ -13,7 +13,7 @@
 <body>
     <nav>
         <ul id="navBar">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li class="dropdown">
                 <a href="about.html">About</a>
                 <div class="dropdown-content">
@@ -21,19 +21,22 @@
                     <a href="#">Live Music</a>
                 </div>
             </li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="account.html">Account</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li class="active"><a href="#">Account</a></li>
         </ul>
     </nav>
+    
 
-    <main>
-        <h2>Cruel Beans Coffee Shop</h2>
-        <img src="Images/ocean-ng-L0xOtAnv94Y-unsplash.jpg" id="rollOver">
-        <ul>
-            <li>Do a rollover image on this page</li>
-            <li>Maybe a video embed?</li>
-            <li>Test</li>
-        </ul>
-    </main>
+<main>
+    <h2>Sign Up or Login</h2>
+    <form id="email_form" action="index.html" method="get">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" autofocus><br>
+        <label for="passcode">Password:</label>
+        <input type="password" name="lastname" id="lastname" autofocus><br>
+        <input type="submit" id="button" value="Login">
+    </form>
+</main>
+    
 </body>
 </html>
